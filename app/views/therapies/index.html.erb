@@ -1,14 +1,122 @@
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+    <%= image_tag "logo.png", size: "75x75" , class:"d-inline-block align-top"%>
+      <%# <img src="/app/assets/images/logo.gif" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"> %>
+    </a>
+
+  </div>
+</nav>
+
 <p style="color: green"><%= notice %></p>
 
-<h1>Therapies</h1>
-
-<div id="therapies">
-  <% @therapies.each do |therapy| %>
-    <%= render therapy %>
-    <p>
-      <%= link_to "Show this therapy", therapy %>
-    </p>
-  <% end %>
+<div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="https://images.pexels.com/photos/2942855/pexels-photo-2942855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+      <div class="card-body">
+        <h5 class="card-title">Magnetisme</h5>
+        <p class="card-text">Le magnétisme est une thérapie énergétique qui se base sur le fait qu’il émane de tout être vivant, de tout minéral et de toute chose, une énergie vitale. Cette thérapie s’inspire directement de la Médecine Traditionnelle Chinoise (MTC) pour laquelle le corps humain reçoit des énergies telluriques et cosmiques subtiles, mais puissantes, et qu’il est lui-même composé de cellules qui possèdent leur propre champ vibratoire. Cette énergie électrique, magnétique et vibratoire, circule dans l’organisme par de grands axes invisibles, les méridiens, en passant par des points d’énergie vitale : les chakras. Le postulat de la médecine énergétique et du magnétisme est que chaque méridien est relié à une grande fonction du corps humain, un organe (rein, cœur, poumon) ou un système (système lymphatique). A force de la solliciter, il arrive que la circulation des énergies de notre corps le long des méridiens ne soit plus optimum. L’organe ou le système auquel est relié le méridien concerné, est alors affaibli par cette circulation défaillante et ne fonctionne plus. Dès lors, tout l’ensemble de l’organisme et de la santé en est affecté.</p>
+        <p class="card-text"><small class="text-muted">Soulage différent maux, aide à la cicatrisation, allergie, insomnie, émotion refoulée, stress.</small></p>
+        <p class="card-text"><small class="text-muted">https://www.annuaire-therapeutes.com/therapies/36-magnetisme</small></p>
+      </div>
+    </div>
+    <div class="card">
+    <%= image_tag "presentation.png", size: "420x255" , class:"d-inline-block align-top"%>
+      <%# <img class="card-img-top" src="/app/assets/images/presentation.png" alt="Card image cap"> %>
+      <div class="card-body">
+        <h5 class="card-title">Reiki</h5>
+        <p class="card-text"> Est un type de médecine alternative japonaise considérée comme une pseudothérapie englobée dans les Thérapies énergétiques. La pratique du reiki consiste en l'action d'une personne, appelée émetteur ou canal, qui, par l'intermédiaire de ses mains, transmet le qi: " force naturelle qui nous donne la vie" à un récepteur, dans le but proposé de guérir, soulager ou éliminer l'inconfort et la maladie.
+        le Reiki est un système d'harmonisation naturelle qui utilise "l'énergie vitale universelle" pour traiter les maladies et les déséquilibres physiques, mentaux et émotionnels. Chacun a la capacité de se connecter avec sa propre énergie de guérison et de l'utiliser pour renforcer l'énergie en lui-même et aider les autres. On croit que le qi ou l'énergie d'une personne doit être fort et circuler librement. Lorsque cela est vrai, le corps et l'esprit d'une personne sont dans un état de santé positif. Lorsque l'énergie est affaiblie ou bloquée, elle peut provoquer des symptômes de déséquilibre physique ou émotionnel, qui peuvent être restaurés par l'émetteur lors de la pratique du reiki.</p>
+        <p class="card-text"><small class="text-muted">Relance la circulation des énergies, purifie et harmonise (physique, émotionnel, mental & spirituel).</small></p>
+    </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://images.pexels.com/photos/2101187/pexels-photo-2101187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Card image cap">
+      <%# <img class="card-img-top" src="https://images.pexels.com/photos/1336454/pexels-photo-1336454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Card image cap"> %>
+      <div class="card-body">
+        <h5 class="card-title">Modelage Relaxante</h5>
+        <p class="card-text">Est une science de santé holistique. Il intervient quasiment sur toutes les fonctions et sur tous les systèmes du corps humains. Le massage et l’action du masseur, peuvent se caractériser par de nombreux bénéfices. Souplesse et mobilité
+Le massage contribue activement à la préservation de la tenségrité du corps. Renforcement des fonctions métaboliques
+Le massage libère et active les fonctions métaboliques. Il stimule les défenses immunitaires. Gestion de la douleur et équilibre psychologique
+Le massage inonde le cerveau d’informations sensorielles qui relèguent la douleur au second plan. Lâcher-prise et qualité du sommeil
+Un massage profond est en mesure d’apaiser et de détendre le corps et l’esprit. Le massage, un puissant anti-inflammatoire
+Les sportifs ont depuis longtemps ressenti les bénéfices du massage après un effort intense. L'estime de soi par la ré-appropriation de l'image corporelle
+Le massage ouvre un chemin pour se réapproprier son image corporelle. La sollicitation du corps sensible
+Bienveillant, le toucher du massage ouvre à l’acceptation de soi-même.</p>
+        <p class="card-text"><small class="text-muted">Doux & léger, détend les muscles, aide à la circulation sanguine, sensation de bien-être.</small></p>
+      </div>
+    </div>
+  </div>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Qui je suis..</h5>
+    <p class="card-text">Je suis originaire de France, Cannois mais d'Hôpital.
+Avec ma mère j'ai beaucoup voyagé. Entre les déménagements
+De pays en pays, j'ai commencé à être un peu distrait. Quand c'est devenu inquiétant pour ma mère,
+j'étais amené à vivre l'expérience du monde de la psychologie. Rien trouvé, j'étais simplement comme ça...
+Mais les situation mal a droites étaient toujours présent dans ma vie.
+En essayant de trouver un équilibre, entre recherche et recherche j'ai fini par faire un test de Don.
+A la réussite de ce test je commence mon aventure, je trouve des réponses et je deviens Magnétiseur très jeune.
+<br>
+J’ai fait mes études en Suisse de la main du professeur Georges Bergos. Après quelques mois d’avoir obtenu mon diplôme je décide de me perfectionner et j’obtiens mon premier niveau en Reiki, aujourd'hui ayant trouvé ces techniques aussi puissantes je continue à me former avec mon menteur
+Suzanne D’Hiver.</p>
+    <p class="card-text"><small class="text-muted">Un grand merci à ma mère pour m'avoir aidé à trouver le chemin.</small></p>
+  </div>
+  <div>
+  <%= image_tag "plagecarre.jpg", size: "400x400" , class:"d-inline-block align-top"%><%= image_tag "presentation.png", size: "600x400" , class:"d-inline-block align-top"%>
+  </div>
 </div>
+</html>
+</body>
 
-<%= link_to "New therapy", new_therapy_path %>
+
+
+<footer class="bg-light text-center text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Ma pratique</h5>
+
+        <p>
+          Je tiens à vous remercier d'être intéressé par mon travail!
+          <br>
+          Les techniques que j'utilise sont le résultat d'années de travail, et j'essaye de m'améliorer jour à jour.
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Mes amulettes</h5>
+
+        <p>
+          Je travaille beaucoup avec les pierres, j'y crois en sa puissance. J'ai souvent tendance à recommander des pierres qui peuvent vous aider.
+        </p>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  Marvin Giomi
+    <a class="text-dark" href="https://mdbootstrap.com/">(+33) 06 60 50 52 74</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+
+<%# <div id="therapies"> %>
+  <%# <% @therapies.each do |therapy| %>
+    <%# <%= render therapy %>
+    <%# <p> <%= link_to "Show this therapy", therapy %></p>
+  <%# <% end %>
+<%# </div> %>
+
+<%# <%= link_to "New therapy", new_therapy_path %>
