@@ -1,3 +1,8 @@
+<% content_for :meta_title, "#{@therapiesgaia.name} is on #{DEFAULT_META["meta_product_name"]}" %>
+<% content_for :meta_description, @therapiesgaia.description %>
+<% content_for :meta_image, image_tag "logo.jpg" %>
+
+
 <p style="color: green"><%= notice %></p>
 
 <%= render @therapy %>
