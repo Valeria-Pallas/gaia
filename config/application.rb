@@ -1,4 +1,5 @@
 require_relative "boot"
+
 require "rails"
 # Pick the frameworks you want:
 require "active_model/railtie"
@@ -16,7 +17,7 @@ require "rails/test_unit/railtie"
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
-# config.assets.initialize_on_precompile = false
+
 module Gaia
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
